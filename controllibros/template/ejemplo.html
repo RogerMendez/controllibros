@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{titulo}}</title>
+</head>
+<body>
+	<h1>{{nombre}}</h1>
+	{% for l in lista %}
+		{% if l == 2%}
+			<strong>Es Par</strong>
+		{% else %}
+			<h2>{{ l }}</h2>
+		{% endif %}
+
+	{% endfor %}
+</body>
+</html>
